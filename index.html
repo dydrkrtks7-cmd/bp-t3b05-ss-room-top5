@@ -1,213 +1,302 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>비주류 문화 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
+<meta charset="UTF-8">
+<title>문래 노래방 추천 가이드 — 이용 전 체크리스트와 선택 기준</title>
+<meta name="description" content="문래 지역에 위치한 노래방을 고를 때 필요한 체크리스트와 객관적인 선택 기준을 정리했습니다. 초보자부터 단체 손님까지 모두에게 맞는 정보를 제공합니다.">
+<meta name="keywords" content="문래 노래방, 노래방 추천, 문래 노래방 가이드, 노래방 선택 기준, 노래방 이용 전 확인사항">
+<link rel="canonical" href="https://mullae-karaoke-note.pub-jongno-pro.xyz/">
+<meta property="og:title" content="문래 노래방 추천 가이드 — 이용 전 체크리스트와 선택 기준">
+<meta property="og:description" content="문래 지역에 위치한 노래방을 고를 때 필요한 체크리스트와 객관적인 선택 기준을 정리했습니다. 초보자부터 단체 손님까지 모두에게 맞는 정보를 제공합니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mullae-karaoke-note.pub-jongno-pro.xyz/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="문래 노래방 추천 가이드 — 이용 전 체크리스트와 선택 기준">
+<meta name="twitter:description" content="문래 지역에 위치한 노래방을 고를 때 필요한 체크리스트와 객관적인 선택 기준을 정리했습니다. 초보자부터 단체 손님까지 모두에게 맞는 정보를 제공합니다.">
+<meta name="bpaas-design-system" content="editorial-apple">
+<meta name="bpaas-design-theme" content="kr-ledger-warm">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "author": {
+    "@type": "Person",
+    "name": "정현서"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "문래 노래방을 선택할 때 가장 중요한 점은 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "시설 청결도와 방음 수준, 그리고 최신 음향 설비가 구비되어 있는지를 우선 확인하는 것이 좋습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "노래방 이용 전 반드시 확인해야 할 사항은?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "시간당 요금제, 최소 이용 인원, 그리고 예약 가능 여부를 사전에 확인하시기 바랍니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "단체 손님에게 적합한 노래방은 어떻게 고르나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "대형 방 규모와 다양한 장르의 곡 리스트, 그리고 단체 할인 정책이 있는지를 기준으로 선택하세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "문래 지역에서 저렴하게 이용할 수 있는 노래방은 어디인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "주중 비수기 시간대에 이용 가능한 노래방을 찾아보시면 비교적 저렴한 요금에 이용할 수 있습니다."
+      }
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#fafaf7;
+  --primary:#191917;
+  --accent:#c8960c;
+}
+body{
+  margin:0;
+  font-family:'Noto Serif KR', serif;
+  background-color:var(--bg);
+  color:var(--primary);
+  line-height:1.6;
+}
+h1,h2,h3{
+  font-family:'Noto Serif KR', serif;
+  margin:0;
+}
+.v-card-72t9{
+  font-family:'IBM Plex Mono', monospace;
+}
+.m-body-f0s5{
+  max-width:960px;
+  margin:0 auto;
+  padding:0 24px;
+}
+.n-btn-0bgj{
+  border:none;
+  height:1px;
+  background-color:var(--primary);
+  margin:24px 0;
+}
+header{
+  padding:72px 0;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.n-body-st7f{
+  display:flex;
+  gap:48px;
+}
+.n-body-st7f a{
+  text-decoration:none;
+  color:var(--primary);
+  font-weight:500;
+}
+.t-body-1hok{
+  display:none;
+  flex-direction:column;
+  gap:6px;
+  cursor:pointer;
+}
+.t-body-1hok span{
+  width:24px;
+  height:2px;
+  background:var(--primary);
+}
+section{
+  padding:72px 0;
+}
+.r-head-vvdf-title{
+  font-size:1.8rem;
+  margin-bottom:24px;
+  border-bottom:2px solid var(--accent);
+  display:inline-block;
+}
+.t-foot-7wit{
+  list-style:none;
+  padding-left:0;
+}
+.t-foot-7wit li{
+  margin-bottom:12px;
+  position:relative;
+  padding-left:20px;
+}
+.t-foot-7wit li::before{
+  content:"·";
+  position:absolute;
+  left:0;
+  color:var(--accent);
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+thead tr:first-child th{
+  border-bottom:2px solid var(--primary);
+}
+thead tr:nth-child(2) th{
+  border-bottom:1px solid var(--primary);
+}
+th,td{
+  padding:12px;
+  text-align:left;
+  font-weight:normal;
+}
+th{
+  background-color:var(--secondary);
+}
+.x-wrap-97ah{
+  float:right;
+  width:260px;
+  margin-left:24px;
+}
+.x-wrap-97ah div{
+  padding:12px;
+  border-left:4px solid var(--accent);
+}
+.q-img-w0ne{
+  margin-top:48px;
+  padding:24px;
+  border-top:2px solid var(--accent);
+}
+footer{
+  text-align:center;
+  padding:48px 0;
+  font-size:0.9rem;
+  color:#555;
+}
+@media (max-width:768px){
+  .n-body-st7f{
+    display:none;
+    flex-direction:column;
+    gap:24px;
+    background:var(--bg);
+    position:absolute;
+    top:60px;
+    right:0;
+    width:200px;
+    padding:24px;
+    border:1px solid var(--primary);
+  }
+  .t-body-1hok{
+    display:flex;
+  }
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>비주류 문화 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>비주류 문화</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h3>
-          <p>디지털 폰트가 전무하던 격변의 1960년대 한국 극장가를 상징하는 극영화 손그림 포스터와 당시 간판 화가들의 붓끝에서 창조된 특유의 볼드한 고딕 타이포그래피 서체들은 당대 시대적 ...</p>
-        </a>
-      
+<header class="m-body-f0s5">
+  <nav>
+    <h1 class="v-card-72t9">문래 노래방 추천 가이드</h1>
+    <div class="t-body-1hok" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="n-body-st7f" id="navlist">
+      <li><a href="#criteria">선택 기준</a></li>
+      <li><a href="#checks">이용 전 확인사항</a></li>
+      <li><a href="#suitability">조건별 적합성</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+  <hr class="n-btn-0bgj">
+  <section>
+    <h2 class="r-head-vvdf-title">문래 노래방을 위한 종합 가이드</h2>
+    <p>문래 지역에 위치한 노래방을 효율적으로 비교·선택할 수 있도록 객관적인 기준과 체크리스트를 제공합니다. 꾸준히 업데이트되는 데이터 기반으로 신뢰성을 확보했습니다.</p>
+  </section>
+</header>
 
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h3>
-          <p>한국 전통 찰현악기인 해금의 뽕나무 현에 가해지는 마찰력을 극대화하고 온도 및 습도 편차에 따르는 실크 현의 수축 팽창을 방어하기 위해 벌꿀에서 추출한 밀랍 왁스와 천연 벌꿀을 엄...</p>
-        </a>
-      
+<main class="m-body-f0s5">
+  <section id="criteria">
+    <h2 class="r-head-vvdf-title">선택 기준</h2>
+    <ol class="t-foot-7wit v-card-72t9">
+      <li>음향 설비와 마이크 품질</li>
+      <li>방음 처리 및 방 크기</li>
+      <li>곡 데이터베이스 최신성</li>
+      <li>시간당 요금 투명성</li>
+      <li>청결 및 위생 관리 수준</li>
+    </ol>
+  </section>
 
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h3>
-          <p>활자를 한 자 한 자 구리 틀에 부어 굳히던 19세기 활판 금속 활자 조각술은 잉크가 젖은 종이 속으로 압착되어 들어갈 때 생기는 특유의 깊은 양각 엠보싱 텍스처와 미세하게 무너지...</p>
-        </a>
-      
+  <section id="checks">
+    <h2 class="r-head-vvdf-title">이용 전 확인사항</h2>
+    <dl class="v-card-72t9">
+      <dt>예약 가능 여부</dt>
+      <dd>전화 혹은 온라인 예약 시스템을 통해 사전 확인이 필요합니다.</dd>
+      <dt>최소 이용 인원</dt>
+      <dd>방마다 최소 인원 규정이 있으니 인원 수에 맞는 방을 선택하세요.</dd>
+      <dt>추가 비용</dt>
+      <dd>음료, 스낵, 추가 마이크 등 부가 서비스 비용을 사전에 파악합니다.</dd>
+    </dl>
+  </section>
 
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>아날로그 문화 컬렉터들이 선정한 강남 셔츠룸 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
+  <section id="suitability">
+    <h2 class="r-head-vvdf-title">조건별 적합성</h2>
+    <table>
+      <thead>
+        <tr><th colspan="2">이용자 유형</th></tr>
+        <tr><th>초보자</th><th>단체 이용</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>작은 방, 저렴한 요금제, 친절한 안내</td>
+          <td>대형 방, 다양한 장르, 단체 할인 정책</td>
+        </tr>
+        <tr>
+          <td>쉬운 조작 패드와 직관적인 메뉴</td>
+          <td>다수의 마이크와 조명 옵션 제공</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>아날로그 문화 컬렉터들이 선정한 강남 셔츠룸 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+  <aside class="q-img-w0ne m-body-f0s5">
+    <p><strong>작성자: 정현서</strong> - 지역 문화 콘텐츠를 5년간 조사·정리해온 로컬 가이드입니다.</p>
+  </aside>
+
+  <section id="faq">
+    <h2 class="r-head-vvdf-title">자주 묻는 질문</h2>
+    <article class="v-card-72t9">
+      <h3>문래 노래방을 선택할 때 가장 중요한 점은 무엇인가요?</h3>
+      <p>시설 청결도와 방음 수준, 최신 음향 설비 여부를 우선 확인하는 것이 좋습니다.</p>
+    </article>
+    <article class="v-card-72t9">
+      <h3>노래방 이용 전 반드시 확인해야 할 사항은?</h3>
+      <p>시간당 요금제, 최소 이용 인원, 예약 가능 여부를 사전에 점검하시기 바랍니다.</p>
+    </article>
+    <article class="v-card-72t9">
+      <h3>단체 손님에게 적합한 노래방은 어떻게 고르나요?</h3>
+      <p>대형 방 규모와 다양한 장르 곡 리스트, 단체 할인 정책을 기준으로 선택하세요.</p>
+    </article>
+    <article class="v-card-72t9">
+      <h3>문래 지역에서 저렴하게 이용할 수 있는 노래방은 어디인가요?</h3>
+      <p>주중 비수기 시간대에 이용 가능한 노래방을 찾아보시면 비교적 저렴한 요금에 이용할 수 있습니다.</p>
+    </article>
+  </section>
+</main>
+
+<footer class="m-body-f0s5">
+  <p>© 2026 문래 노래방 추천 가이드. All rights reserved.</p>
+</footer>
+
+<script>
+const hamburger=document.getElementById('hamburger');
+const navlist=document.getElementById('navlist');
+hamburger.addEventListener('click',()=>{navlist.style.display=navlist.style.display==='flex'?'none':'flex';});
+</script>
 </body>
 </html>
