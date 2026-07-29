@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mullae-karaoke-note.pub-jongno-pro.xyz/sitemap.xml
